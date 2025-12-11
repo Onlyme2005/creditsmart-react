@@ -30,11 +30,13 @@
             </div>
             
             <div className="requirements">
-            <p><strong>Requisitos:</strong> {credit.requirements}</p>
+                <p><strong>Requisitos:</strong> {credit.requirements}</p>
             </div>
-            <Link to="/request">
+            <center>
+            <Link to="/request" className='botones'>
                 <button className="request-btn">Solicitar</button>
-                </Link>
+            </Link>
+            </center>
         </div>
         </div>
     );

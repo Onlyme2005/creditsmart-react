@@ -24,7 +24,7 @@
     {
         id: 3,
         name: "Crédito Vivienda",
-        description: "Crédito hipotecario para vivienda.",
+        description: "Crédito hipotecario para viviendas y casas.",
         minAmount: 30000000,
         maxAmount: 500000000,
         interestRate: 10,
