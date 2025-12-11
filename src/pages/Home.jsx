@@ -8,10 +8,11 @@
 
     return (
         <div className="home-container">
-        <header className="home-header">
-            <h1>Catálogo de Créditos Disponibles</h1>
-            <p>Encuentra el crédito ideal para tus necesidades</p>
-        </header>
+            
+        <section class ="banner">
+            <h2>Encuentra el crédito ideal para ti</h2>
+            <p>Compara y solicita entre más de 5 tipos de crédito con las mejores tasas del mercado</p>
+        </section>
         
         <div className="credits-grid">
             {credits.map((credit) => (

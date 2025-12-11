@@ -2,6 +2,7 @@
   import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
   import Navbar from './components/Navbar';
   import Home from './pages/Home';
+  import ScrollToTop from './components/ScrollToTop';
   import Simulator from './pages/Simulator';
   import RequestCredit from './pages/RequestCredit';
   import './App.css';
@@ -9,6 +10,7 @@
   function App() {
     return (
       <Router>
+        <ScrollToTop />
         <div className="App">
           <Navbar />
           <main className="main-content">

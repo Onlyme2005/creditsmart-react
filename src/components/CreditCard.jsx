@@ -1,5 +1,6 @@
     import React from 'react';
     import './CreditCard.css';
+    import { Link } from "react-router-dom";
 
     const CreditCard = ({ credit }) => {
     return (
@@ -31,9 +32,9 @@
             <div className="requirements">
             <p><strong>Requisitos:</strong> {credit.requirements}</p>
             </div>
-            
-            <button className="details-btn">Ver detalles</button>
-            <button className="request-btn">Solicitar</button>
+            <Link to="/request">
+                <button className="request-btn">Solicitar</button>
+                </Link>
         </div>
         </div>
     );

@@ -49,7 +49,7 @@
                 <input
                     type="range"
                     id="amountRange"
-                    min="100000"
+                    min="1000000"
                     max="500000000"
                     step="1000000"
                     value={amountRange}

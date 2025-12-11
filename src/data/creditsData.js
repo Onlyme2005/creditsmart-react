@@ -53,6 +53,17 @@
         maxTerm: 84,
         requirements: "Empresa con más de 1 año de constitución",
         image: "/images/credito-empresarial.png"
+    },
+    {
+        id: 6,
+        name: "Crédito Consumo",
+        description: "Ideal para compra de bienes y servicios.",
+        minAmount: 1000000,
+        maxAmount: 50000000,
+        interestRate: 5,
+        maxTerm: 24,
+        requirements: "Edad mínima 18 años, ingresos mínimos $2.000.000",
+        image: "/images/credito-consumo.jpg"
     }
     ];
 
