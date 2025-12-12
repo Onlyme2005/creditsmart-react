@@ -49,3 +49,6 @@ npm install
 
 *Iniciar servidor de desarrollo
 npm run dev
+
+CAPTURAS DE PANTALLA:
+https://drive.google.com/drive/folders/1wSaCD3VpwbqJ8FAGyH0zt03uEcqt4wj_?usp=sharing
