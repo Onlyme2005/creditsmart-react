@@ -1,16 +1,51 @@
-# React + Vite
+CREDITSMART - SISTEMA DE GESTION DE SOLICITUDES DE CREDITO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+INFORMACION DEL ESTUDIANTE:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+NOMBRE: Brislleily Sirley Carmona Correa
+PROGRAMA: Tecnologia en desarrollo de Sotfware
+CURSO: Ingenieria Web I
+GRUPO: PREICA2502B020022
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+DESCRIPCION BREVE DEL PROYECTO:
 
-## Expanding the ESLint configuration
+CreditSmart es una aplicación web interactiva desarrollada con React que permite a los usuarios explorar, filtrar y simular productos de crédito. Este proyecto transforma un diseño estático en una aplicación dinámica implementando conceptos fundamentales de React como componentes, hooks, enrutamiento y manejo de estado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La aplicación incluye:
+-Catálogo interactivo de tarjetas de crédito con búsqueda en tiempo real
+-Sistema de filtros dinámicos por tipo de crédito, entidad bancaria y rangos de montos
+-Formularios controlados para simulación de préstamos con validación
+-Enrutamiento cliente para navegación fluida entre secciones
+-Cálculos financieros automáticos de cuotas mensuales e intereses
+-Diseño responsive adaptado a diferentes dispositivos
+
+
+TECNOLOGIAS UTILIZADAS
+
+React:	Biblioteca principal para construcción de interfaz de usuario
+React Router:	Enrutamiento cliente para navegación SPA
+Vite:	Herramienta de construcción y desarrollo (más rápida que CRA)
+JavaScript:	Lenguaje de programación principal
+CSS3:  Estilos y diseño responsive
+Git hub: Control de versiones del proyecto
+
+INSTALACION Y CONFIGURACION
+
+*Requisitos Previos:
+-Node.js (versión 16 o superior)
+-npm 
+-Github
+
+*Pasos de Instalación:
+
+*Clonar el repositorio:
+git clone https://github.com/Onlyme2005/creditsmart-react.git
+cd creditsmart-react
+
+*Instalar dependencias:
+npm install
+
+*Iniciar servidor de desarrollo
+npm run dev
