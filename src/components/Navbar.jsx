@@ -1,6 +1,6 @@
     import React from 'react';
     import { Link } from 'react-router-dom';
-    import { FaPiggyBank } from "react-icons/fa";   // ICONO
+    import { FaPiggyBank } from "react-icons/fa"; 
     import './Navbar.css';
 
     const Navbar = () => {
@@ -8,7 +8,7 @@
         <nav className="navbar">
         <div className="navbar-brand">
             <Link to="/" className="brand-link">
-            <FaPiggyBank className="brand-icon" />     {/* ICONO */}
+            <FaPiggyBank className="brand-icon" />   
             <span className="brand-text">CreditSmart</span>
             </Link>
         </div>
