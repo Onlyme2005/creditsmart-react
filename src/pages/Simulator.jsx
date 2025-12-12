@@ -25,11 +25,10 @@
     
     return (
         <div className="simulator-container">
-        <header className="simulator-header">
-            <h1>Simulador de Crédito</h1>
-            <p>Encuentra y compara las mejores opciones</p>
+            <header className='simulator-header'>
+        <h1>Simulador de Créditos</h1>
+        <p>Encuentra el crédito que mejor se adapte a tus necesidades</p>
         </header>
-        
         {/* Filtros y Búsqueda */}
         <div className="filters-section">
             <div className="search-box">

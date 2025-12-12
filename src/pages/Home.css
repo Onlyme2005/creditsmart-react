@@ -26,3 +26,33 @@
         margin-top: 10px;
         
     }
+        @media (max-width: 768px) {
+    .banner {
+        padding: 2.5rem 1rem;
+    }
+
+    .banner h2 {
+        font-size: 2rem;
+    }
+
+    .banner p {
+        font-size: 1.05rem;
+    }
+    }
+    @media (max-width: 600px) {
+    .credits-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+        .banner {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .banner h2 {
+        font-size: 1rem;
+    }
+
+    .banner p {
+        font-size: 1.rem;
+    }
+    }

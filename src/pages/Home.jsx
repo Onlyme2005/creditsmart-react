@@ -14,6 +14,7 @@
             <p>Compara y solicita entre más de 5 tipos de crédito con las mejores tasas del mercado</p>
         </section>
         
+        
         <div className="credits-grid">
             {credits.map((credit) => (
             <CreditCard key={credit.id} credit={credit} />
